@@ -1,0 +1,12 @@
+{
+  "name": "status-site",
+  "version": "1.0.0",
+  "description": "Um site simples que verifica o status do servidor GitHub.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "Seu Nome",
+  "license": "MIT",
+  "dependencies": {}
+}
