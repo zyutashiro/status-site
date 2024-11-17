@@ -6,7 +6,7 @@
   "scripts": {
     "start": "node server.js"
   },
-  "author": "Seu Nome",
+  "author": "zYuuta",
   "license": "MIT",
   "dependencies": {}
 }
