@@ -1,10 +1,7 @@
 const http = require('http');
 const https = require('https');
-
-// URL do GitHub Pages para verificar
 const githubURL = 'https://github.com/zyutashiro/status-site.git';
 
-// Função para verificar o status do GitHub Pages
 function checkGitHubStatus(callback) {
     https.get(githubURL, (res) => {
         const { statusCode } = res;
@@ -18,7 +15,6 @@ function checkGitHubStatus(callback) {
     });
 }
 
-// Servidor básico em Node.js
 const server = http.createServer((req, res) => {
     if (req.url === '/') {
         checkGitHubStatus((err, isUp) => {
