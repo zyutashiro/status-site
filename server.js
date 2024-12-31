@@ -35,7 +35,6 @@ const server = http.createServer((req, res) => {
     }
 });
 
-// Iniciar o servidor na porta 3000
 server.listen(3000, () => {
     console.log('Servidor rodando em http://localhost:3000');
 });
